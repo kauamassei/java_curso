@@ -1,4 +1,4 @@
-package TiposDeDados;
+package Modulo1.TiposDeDados;
 
 public class DadosPrimitivos {
 

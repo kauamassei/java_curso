@@ -1,4 +1,4 @@
-package Desafios;
+package Modulo1.Desafios;
 
 public class DesafioUm {
     public static void main(String[] args) {

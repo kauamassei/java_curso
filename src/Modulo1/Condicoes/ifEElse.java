@@ -1,4 +1,4 @@
-package Condicoes;
+package Modulo1.Condicoes;
 
 public class ifEElse {
 
