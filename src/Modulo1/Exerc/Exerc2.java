@@ -14,5 +14,7 @@ public class Exerc2 {
 
             System.out.println(i + 1);
         }
+
+        inputNumber.close();
     }
 }
