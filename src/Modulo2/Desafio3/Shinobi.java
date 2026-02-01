@@ -15,4 +15,14 @@ public class Shinobi {
         System.out.println("Status da missão: " + statusMissao);
     }
 
+    @Override
+    public String toString() {
+        return "Nome: " + name +
+                " | Idade: " + age +
+                " | Missão: " + missao +
+                " | Nível: " + nivelDificuldade +
+                " | Status: " + statusMissao +
+                " | Clã: " + getClass().getSimpleName();
+    }
+
 }
