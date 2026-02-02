@@ -16,7 +16,6 @@ public class Main {
         Sasuke.idade = 19;
         Sasuke.SharinganAtivado();
 
-
         Uzumaki Naruto = new Uzumaki();
         Naruto.nome = "Naruto Uzumaki";
         Naruto.aldeia = "Vila da Folha";
@@ -28,5 +27,14 @@ public class Main {
         Hinata.aldeia = "Vila da Folha";
         Hinata.idade = 19;
         Hinata.AtivarByakugan();
+
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Hyuuga Uzumaki";
+        Boruto.aldeia = "Vila da Folha";
+        Boruto.idade = 16;
+        Boruto.ModoSennin();
+        Boruto.ativarJougan();
+        Boruto.ativarKarma();
+
     }
 }

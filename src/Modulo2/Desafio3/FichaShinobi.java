@@ -136,6 +136,15 @@ public class FichaShinobi {
             }
         }
 
+        Uchiha Madara = new Uchiha();
+        Madara.name = "Madara Uchiha";
+        Madara.age = 30;
+        Madara.missao = "Realizar o Tsukuyomi";
+        Madara.nivelDificuldade = "S";
+        Madara.statusMissao = "Concluída";
+        Madara.mostrarInformacoes();
+
+
         cadastro.close();
     }
 }
