@@ -33,6 +33,12 @@ public class Main {
         Kakashi.sharinganAtivado();
         Kakashi.ninjaDeElite();
 
+        //Sobrecarga de construtores
+        Uchiha Sasuke = new Uchiha("Sasuke Uchiha", 18, "Vila da Folha", 200, NivelNinja.GENIN);
+        Sasuke.estrategiaDeBatalhaNinja();
+        Sasuke.inteligenciaDeCombate(50);
+        System.out.println(Sasuke);
+
 
 
 
