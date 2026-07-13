@@ -38,4 +38,6 @@ public class Uchiha extends Ninja implements SharinganInterface, AnbuInterface {
             System.out.println("Seu QI é " +qi+" e você precisa treinar mais suas estratégias.");
         }
     }
+
+
 }

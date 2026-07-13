@@ -38,6 +38,12 @@ public class Main {
         Sasuke.estrategiaDeBatalhaNinja();
         Sasuke.inteligenciaDeCombate(50);
         System.out.println(Sasuke);
+        Sasuke.tacarKunai();
+
+        Anbu Shisui = new Anbu();
+        Shisui.nome = "Shisui Uchiha";
+        Shisui.anbu();
+
 
 
 

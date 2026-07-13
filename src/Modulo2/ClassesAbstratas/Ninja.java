@@ -10,6 +10,7 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     String aldeia;
     int numeroDeMissoesConcluidas;
     NivelNinja rank;
+    final double altura = 1.80; //final é o equivalente a const em JS, métodos ou atributos tem valores constantes e imutáveis
 
     public Ninja() {
     }
@@ -37,7 +38,7 @@ public abstract class Ninja implements EstrategiaDeBatalha {
         System.out.println("Meu nome é " +nome+" e essa é minha INTELIGÊNCIA de combate.");
     }
 
-    //Sobrecarga de método
+    //Sobrecarga de método (adicionando parametro)
 
     public void inteligenciaDeCombate(int qi) {
         if (qi > 150) {
@@ -53,5 +54,9 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     @Override
     public String toString() {
         return "Esse é o retorno do valor em memória";
+    }
+
+    final void tacarKunai() {
+        System.out.println("Você jogou uma kunai");
     }
 }
